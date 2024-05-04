@@ -358,6 +358,6 @@ async def lottery(ctx, world, district):
 
     await ctx.send(f'```{"".join(output)}```')
 
-token = 'MTE3Nzc0MzMzNDQxMjkxNDY5OA.GhLsbA.mr8fbBHGdg6e9qzFtJj8sNt07Hcpt_9wgvEcb8'
+token = ''
 bot.run(token)
 
