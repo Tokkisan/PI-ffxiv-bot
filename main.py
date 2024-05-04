@@ -175,7 +175,7 @@ async def man(ctx):
     await ctx.send("https://tenor.com/view/cat-i-am-on-the-brink-meme-white-text-gif-26506151")
 
 
-api_key = "d527bfdbe12cbb4fc3e4dfc4705ac509"
+api_key = ""
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 @bot.command(name='weather')
@@ -203,8 +203,8 @@ async def weather(ctx, *, city_name):
 
 
 
-ffxiv_api_key = "e29ee2f050e84b52a4324419be95bb0d8e3d833059bf4728bdda698bf6e05d03"
-private_key = "https://xivapi.com/item/1675?private_key=e29ee2f050e84b52a4324419be95bb0d8e3d833059bf4728bdda698bf6e05d03"
+ffxiv_api_key = ""
+private_key = "https://xivapi.com/item/1675?private_key="
 async def fetch_example_results(ctx, recipe_name, mult):
   client = pyxivapi.XIVAPIClient(ffxiv_api_key)
 
