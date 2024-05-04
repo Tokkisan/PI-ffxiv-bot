@@ -1,1 +1,1 @@
-# grandma-bot
+# ffxiv-py-bot
